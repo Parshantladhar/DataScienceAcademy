@@ -1,0 +1,107 @@
+/* General body settings */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* Navbar enhancements */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link.active {
+  color: #ffc107 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('images/hero-bg.jpg') center center/cover no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 0.95rem;
+}
+
+/* Login/Register Forms */
+.login-container,
+.register-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn-primary,
+.btn-success {
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+  opacity: 0.9;
+}
+
+/* FAQ Accordion */
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.accordion-button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .login-container,
+  .register-container {
+    margin: 30px 15px;
+  }
+}
