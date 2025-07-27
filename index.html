@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Data Science Academy</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Data Science Academy</a>
@@ -31,34 +32,115 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white text-center py-5">
+  <!-- Hero Section -->
+  <section class="bg-primary text-white text-center p-5 ">
     <div class="container">
-      <h1 class="display-4">Welcome to Data Science Academy</h1>
-      <p class="lead">Your gateway to becoming a Data Science expert</p>
-      <a href="register.html" class="btn btn-light btn-lg mt-3">Get Started</a>
+      <h1 class="display-4 fw-bold">Master Data Science & AI Skills</h1>
+      <p class="lead">Join our industry-driven Data Science Academy and build real-world skills with top mentors.</p>
+      <a href="courses.html" class="btn btn-light btn-lg mt-3">Explore Courses</a>
     </div>
-  </header>
+  </section>
 
-  <section class="container text-center my-5">
-    <h2>Why Choose Us?</h2>
-    <div class="row mt-4">
-      <div class="col-md-4">
-        <h5>✅ Industry Experts</h5>
-        <p>Learn from experienced professionals in the field.</p>
-      </div>
-      <div class="col-md-4">
-        <h5>🎓 Recognized Certificates</h5>
-        <p>Boost your resume with certified courses.</p>
-      </div>
-      <div class="col-md-4">
-        <h5>💼 Career Support</h5>
-        <p>Internships, placements, and interview training.</p>
+  <!-- Why Choose Us -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Why Choose Data Science Academy?</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <h5>🔍 Real-World Projects</h5>
+          <p>Work with datasets used in real companies and industries.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>🎓 Expert Mentors</h5>
+          <p>Learn from industry professionals with hands-on experience.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>💼 Placement Support</h5>
+          <p>Get career guidance and interview preparation from experts.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>🌐 Global Certification</h5>
+          <p>Earn credentials recognized by leading companies.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <footer class="bg-dark text-white text-center py-3">
-    &copy; 2025 Data Science Academy. All rights reserved.
+  <!-- Courses Preview -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Popular Courses</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Python for Data Science</h5>
+              <p class="card-text">Start your journey with hands-on Python coding and real data sets.</p>
+              <a href="courses.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning Essentials</h5>
+              <p class="card-text">Understand ML algorithms, models, and deployment techniques.</p>
+              <a href="courses.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">AI & Deep Learning</h5>
+              <p class="card-text">Explore neural networks, CNNs, and the future of AI with hands-on labs.</p>
+              <a href="courses.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">What Our Students Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>“The mentorship and projects helped me land a job in just 3 months!”</p>
+            <footer class="blockquote-footer">Ananya S, Data Analyst</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>“This academy transformed my career. Highly recommended.”</p>
+            <footer class="blockquote-footer">Rahul T, ML Engineer</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>“Great instructors and hands-on experience with real tools.”</p>
+            <footer class="blockquote-footer">Megha D, AI Developer</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 text-white text-center bg-primary">
+    <div class="container">
+      <h2 class="mb-3">Ready to Start Your Data Science Journey?</h2>
+      <a href="register.html" class="btn btn-light btn-lg">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-4">
+    <p class="mb-0">&copy; 2025 Data Science Academy. All rights reserved.</p>
+    <small>Email: info@datascienceacademy.com | Phone: +91-9876543210</small>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
